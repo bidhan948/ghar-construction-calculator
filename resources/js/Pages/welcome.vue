@@ -1,6 +1,10 @@
 <template>
-    <h1>Hello world</h1>
+  <h1 class="text-center">{{ msg }}</h1>
 </template>
 <script>
-    export default {};
+export default {
+  props: {
+    msg: String,
+  },
+};
 </script>
